@@ -1,0 +1,7 @@
+database:
+  nosql:
+    mongo:
+      uri: 'mongodb://localhost:27017'
+      dbName: 'practice'
+      user: 'practice'
+      pass: 'practice'

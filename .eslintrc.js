@@ -7,7 +7,7 @@ module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    //'plugin:prettier/recommended',
+    // 'plugin:prettier/recommended',
   ],
   root: true,
   env: {
@@ -28,5 +28,6 @@ module.exports = {
     'semi-spacing': "error",
     'arrow-spacing': ["error", { "before": true, "after": true }],
     'object-curly-spacing': ["error", "always"],
+
   }
 }
